@@ -195,30 +195,11 @@ screenshots/           Images used in this README
 tests/                 Parsing, pipeline, fallback, failure isolation, UI, local models (simulated GPU)
 ```
 
-## 🛡️ Engineering notes
-
-- **Failure isolation:** one bad row never stops the batch. Errors are shown per row and saved in the manifest.
-- **Caching:** each row has a stable id built from its content and the chosen engine, so unchanged rows are reused instead of paid for twice.
-- **Graceful degradation:** local AI video falls back to the free engine per shot when there is no GPU or a model error.
-- **Retries:** API calls retry with backoff, except for client errors such as a bad key.
-- **Live dashboard:** the batch runs on a background thread and the UI polls it, so the page stays responsive.
-- **Tested end to end:** `pytest` runs the real pipeline in demo mode (including the Streamlit UI through `AppTest`), the fallback path and the failure path. CI runs lint and tests on every push.
 
 ```bash
 pytest -q        # tests
 ruff check .     # lint
 ```
-
-
-
-## 🗺️ Roadmap
-
-- More open-source motion models (Wan, CogVideoX) behind the same interface
-- Character LoRAs and IP-Adapter for stronger consistency
-- Open-source voice (Piper or Kokoro) so only the script needs an API
-- Brand kits per row (logo, colours) and burned-in captions
-- Scheduling and publishing to social platforms
-- Google Sheets as an input source
 
 ---
 

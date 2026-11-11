@@ -1,0 +1,11 @@
+# Optional: open-source local models (SDXL-Turbo, Stable Video Diffusion, LTX-Video). Needs a GPU.
+# Install PyTorch for your CUDA version first if needed: https://pytorch.org/get-started/locally/
+torch
+diffusers>=0.32
+transformers
+accelerate
+safetensors
+sentencepiece
+imageio
+imageio-ffmpeg
+opencv-python-headless

@@ -24,21 +24,25 @@ Five rows in one sheet, five finished videos out. Each one has its own aspect ra
 
 ### 1. Safe play at the community playground
 *Vertical 9:16 · 15 seconds · warm and playful · voice: coral*
+
 https://github.com/user-attachments/assets/ac726a3a-f1a9-4d2d-85a1-be68e51db587
 
 
 ### 2. Saving a little money every day
 *Vertical 9:16 · 20 seconds · upbeat and practical · voice: alloy*
+
 https://github.com/user-attachments/assets/5d14d75b-c787-4ca3-a001-bbe015547c78
 
 ### 3. Cooking perfect jollof rice
 *Square 1:1 · 20 seconds · friendly and energetic · voice: nova*
+
 https://github.com/user-attachments/assets/b9efea73-ebc7-4924-8fa9-40f9744ea359
 
 
 
 ### 4. Staying safe from online scams
 *Vertical 9:16 · 15 seconds · calm and clear · voice: onyx*
+
 https://github.com/user-attachments/assets/0aa763b5-9ab5-4d15-a2e6-af1496a7bd90
 
 
@@ -46,6 +50,7 @@ https://github.com/user-attachments/assets/0aa763b5-9ab5-4d15-a2e6-af1496a7bd90
 *Widescreen 16:9 · 20 seconds · motivating · voice: shimmer*
 
 https://github.com/user-attachments/assets/160e771e-6595-45e6-b9d8-248a0932fbfc
+
 ---
 
 ## 🖥️ The app in three steps
